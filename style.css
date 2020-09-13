@@ -1,0 +1,47 @@
+body {
+ 
+  background-color: #2b3049;
+  font-style: normal;
+}
+nav > a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 26px;
+}
+nav {
+  text-align: right;
+}
+
+#logo {
+  display: flex;
+  padding: 0.5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 30%;
+}
+#logo_back {
+  background-color: rgba(255, 255, 255, 0.904);
+  display: flex;
+  border-radius: 10px;
+}
+#navbar {
+  display: flex;
+  padding: 2;
+  margin-top: 2%;
+  background-color: rgba(255, 255, 255, 0.904);
+  border-radius: 2px;
+  justify-content: space-around;
+}
+
+nav > a:hover {
+  
+  transition: 0.5s ease 0s;
+  background-color: rgba(82, 118, 235, 0.596);
+  font-weight: 700;
+  border-radius: 10px;
+  background-size: 5%;
+}
+#spacer{
+    font-size: 26px;
+}
